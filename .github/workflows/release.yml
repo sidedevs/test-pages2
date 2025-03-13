@@ -10,7 +10,7 @@ on:
 
 jobs:
   release:
-    if: "github.repository_owner == 'jekyll'"
+    #if: "github.repository_owner == 'jekyll'"
     name: "Release Gem (Ruby ${{ matrix.ruby_version }})"
     runs-on: "ubuntu-latest"
     strategy:
